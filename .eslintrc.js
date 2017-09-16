@@ -6,6 +6,9 @@ module.exports = {
   parserOptions: {
     sourceType: 'module'
   },
+  "globals": {
+    "d3": false
+  },
   env: {
     browser: true,
   },
