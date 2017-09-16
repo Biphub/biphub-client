@@ -1,0 +1,41 @@
+@import '../../../styles/size.scss';
+@import '../../../styles/padding.scss';
+// TODO: Possibly refactor this (vertical center) using flex
+.component {
+  width: 100%;
+  min-height: 60px;  // TODO: Static value is not good. Revise this
+  text-align: center;
+}
+
+.component-pad {
+  @extend %pd-3x;
+}
+
+.photo {
+  border-radius: 50%;
+}
+
+.photo-image {
+  border-radius: 50%;
+}
+
+.name {
+  font-size: $fsize--mss;
+  text-transform: capitalize;
+}
+
+  .name-arrow {
+    margin-left: 5px;
+    display: inline-block;
+  }
+  .name-arrow--active {
+    transform: rotate(90deg);
+  }
+  .name-arrow--inactive {
+    transform: rotate(270deg);
+  }
+
+.role {
+  font-size: $fsize--sm;
+  text-transform: capitalize;
+}
