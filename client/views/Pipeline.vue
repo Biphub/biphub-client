@@ -42,7 +42,7 @@
   <div v-bind:class="$style.page">
     <div v-bind:class="$style.body">
       <div v-bind:class="$style.siderail">
-        siderail
+        <siderail></siderail>
       </div>
       <div v-bind:class="$style.middle">
         <div v-bind:class="$style.middleContent">
